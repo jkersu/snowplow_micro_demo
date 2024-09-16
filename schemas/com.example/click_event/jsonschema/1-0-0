@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "self": {
+      "vendor": "com.example",
+      "name": "click_event", 
+      "format": "jsonschema",
+      "version": "1-0-0"
+    },
+    "description": "When a customer has clicked a button",
+    "properties": { 
+      "clickURL": {
+        "type": "string", 
+        "description": "URL the click is linking to"
+      }
+    },
+    "required": [
+      "clickURL"
+    ],
+    "additionalProperties": false
+   }
+   

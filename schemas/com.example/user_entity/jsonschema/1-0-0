@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "self": {
+      "vendor": "com.example",
+      "name": "user_entity",
+      "format": "jsonschema",
+      "version": "1-0-0"
+    },
+    "description": "User Entity",
+    "properties": {
+      "userId": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "ID of User"
+      },
+      "name": {
+        "type": "string",
+        "description": "Name of User"
+      }
+    },
+    "required": [
+      "userId" 
+    ],
+    "additionalProperties": false 
+   }
+   
+   

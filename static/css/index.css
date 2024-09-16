@@ -1,0 +1,61 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#goodButton {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#goodButton:hover {
+    background-color: green;
+}
+
+#goodButton:active {
+    background-color: #004080;
+}
+
+#badButton {
+    padding: 10px 20px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#badButton:hover {
+    background-color: red;
+}
+
+#badButton:active {
+    background-color: #004080;
+}
+
+.code-example {
+    padding-top: 5rem;
+    display: none;
+}

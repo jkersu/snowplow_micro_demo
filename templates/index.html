@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Snowplow Demo Playground</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</head>
+<body>
+    <h1>Snowplow Playground Demo</h1>
+    <div>
+        <button id="goodButton">Send a Good Event</button>
+        <button id="badButton">Send a Bad Event</button>    
+    </div>
+
+    <img id="goodEventImage" class="code-example" src="{{ url_for('static', filename='img/goodevent.png') }}">
+    <img id="badEventImage"  class="code-example" src="{{ url_for('static', filename='img/badevent.png') }}">
+
+    <script src="{{ url_for('static', filename='js/tracking.js') }}"></script>
+</body>
+</html>

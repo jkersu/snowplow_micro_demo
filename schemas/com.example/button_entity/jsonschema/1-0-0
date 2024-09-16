@@ -1,0 +1,28 @@
+{
+  "type": "object",
+    "self": {
+      "vendor": "com.example",
+      "name": "button_entity",
+      "format": "jsonschema",
+      "version": "1-0-0"
+    },
+    "description": "Button Entity",
+    "properties": {
+      "buttonId": {
+        "type": [
+          "string"
+        ],
+        "description": "Unique ID of the button"
+      },
+      "buttonColor": {
+        "type": "string",
+        "description": "Color of the button"
+      }
+    },
+    "required": [
+      "buttonId",
+      "buttonColor" 
+    ],
+    "additionalProperties": false 
+   }
+  
