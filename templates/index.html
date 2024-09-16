@@ -7,7 +7,9 @@
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </head>
 <body>
-    <h1>Snowplow Playground Demo</h1>
+    <img id="sp-logo" src="{{ url_for('static', filename='img/snowplow-logo.png') }}">
+
+    <h1>Playground Demo</h1>
     <div>
         <button id="goodButton">Send a Good Event</button>
         <button id="badButton">Send a Bad Event</button>    

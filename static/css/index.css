@@ -58,4 +58,9 @@ h1 {
 .code-example {
     padding-top: 5rem;
     display: none;
+    width: 50%
+}
+
+#sp-logo {
+    width: 25%
 }
