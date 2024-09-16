@@ -7,7 +7,7 @@
 
 // Initialise a new tracker - can have multiple per page.
 // Specify CollectorURL
-    snowplow('newTracker', 'sp', 'https://5fa5-104-151-7-162.ngrok-free.app', {
+    snowplow('newTracker', 'sp', 'https://f0a5-104-151-7-162.ngrok-free.app', {
        appId: 'demo-flask-app',
        discoverRootDomain: true,
        cookieSameSite: 'Lax', // Recommended
