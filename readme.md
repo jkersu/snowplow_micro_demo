@@ -2,8 +2,9 @@
 1. Spin up Micro
 
 ```
-docker run -p 9090:9090 \
+docker run --name micro -p 9090:9090 \
   --mount type=bind,source=$(pwd)/schemas,destination=/config/iglu-client-embedded/schemas \
+ --mount type=bind,source=$(pwd)/enrichments,destination=/config/enrichments \
   snowplow/snowplow-micro:2.1.2
 ```
 
